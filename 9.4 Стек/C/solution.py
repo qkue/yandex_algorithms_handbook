@@ -1,4 +1,6 @@
 # Python 3.12.1
+# материал, который помогает понять идею https://codeforces.com/blog/entry/71687?locale=ru
+
 
    
 class Stack:
