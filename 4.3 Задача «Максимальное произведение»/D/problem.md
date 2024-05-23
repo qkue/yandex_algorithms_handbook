@@ -2,7 +2,7 @@
 
 Дана последовательность целых чисел a<sub>1</sub>,…,a<sub>n</sub>​. Вычислите
 
-max⁡<sub>1≤i≠j≠k≠l≤n</sub>a<sub>i</sub>⋅a<sub>j</sub>⋅a<sub>k</sub>⋅a<sub>l</sub>​.
+max⁡<sub>1≤i≠j≠k≠l≤n</sub> a<sub>i</sub>⋅a<sub>j</sub>⋅a<sub>k</sub>⋅a<sub>l</sub>​.
 
 Обратите внимание, что индексы i, j, k и l должны быть различны. Хотя в каких-то случаях значения элементов могут совпадать, то есть, например, a<sub>i</sub>\=a<sub>l</sub>.
 
