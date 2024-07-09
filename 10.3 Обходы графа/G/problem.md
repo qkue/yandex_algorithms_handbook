@@ -124,7 +124,7 @@
 <table>
  <tr class="time-limit">
     <td class="property-title">Ограничение времени</td>
-    <td>1&nbsp;секунда</td>
+    <td>4&nbsp;секунды</td>
  </tr>
  <tr class="memory-limit">
     <td class="property-title">Ограничение памяти</td>
