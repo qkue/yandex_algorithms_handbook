@@ -1,22 +1,16 @@
 # Python 3.12.1
-# Это не разбиение Ломуто, но в тестах ошибка и в итоге нужен такой алгоритм для этих тестов
+
+def lomuto(n, arr):
+    pivot = arr[0]
+    i = 1
+    for j in range(1, n):
+        if arr[j] <= pivot:
+            arr[i], arr[j] = arr[j], arr[i]
+            i += 1
+    arr[0], arr[i - 1] = arr[i - 1], arr[0]
+    return arr
 
 n = int(input())
-m = list(map(int, input().split()))
-
-def lomuto(arr):
-    
-    left_list = []
-    right_list = []
-    pivot = arr[0]
-
-    for i in arr:
-        if i <= pivot:
-            left_list.append(i)
-        else:
-            right_list.append(i)
-    left_list[0], left_list[-1] = left_list[-1], left_list[0]
-
-    return left_list + right_list
-
-print(*lomuto(m))
+a = list(map(int, input().split()))
+result = lomuto(n, a)
+print(' '.join(map(str, result)))
